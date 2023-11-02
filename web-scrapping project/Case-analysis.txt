@@ -1,0 +1,84 @@
+Swiggy Data Analysis ( Questions)
+
+1. What types of food are most popular among customers, and how does this vary by restaurant and price range?
+2. Is there a correlation between discounts offered and restaurant ratings, and if so, what is the nature of this relationship?
+3. How do different price ranges affect customer satisfaction and ratings?
+4. Which restaurants have the highest ratings, and what factors contribute to their success?
+5. How do the different features such as rating, price, and discount percentage contribute to the overall gross income of a restaurant?
+6. Are there any trends in customer preferences over time, and how can restaurants adapt to these changes?
+7. Can we identify any opportunities to increase customer retention and loyalty through targeted promotions or discounts?
+8. How do the characteristics of the restaurant and its food offerings affect customer sentiment and ratings?
+9. Is there a correlation between the geographical location of a restaurant and its success, and if so, what factors contribute to this relationship?
+10. Can we predict the success of a new restaurant opening based on its features and characteristics compared to existing restaurants in the area?
+
+Solutions: 
+
+ 1. 
+From the count plot, we can see that "North Indian" cuisine is the most popular among customers.
+The top 5 popular types of food are: North Indian, Chinese, Fast Food, Bakery, and Continental.
+
+2. 
+We can create a scatter plot to see the relationship between "Rating" and "Price" for each restaurant.
+From the scatter plot, we can see that restaurants with higher ratings tend to have higher prices.
+The top 5 restaurants with the highest ratings are: AB's - Absolute Barbecues, The Big Barbeque, Flechazo, Barbeque Nation, and Absolute Barbecues.
+
+3.  
+We can create a scatter plot to see the relationship between "Discount_Percentage" and "Price" for each restaurant.
+From the scatter plot, we can see that restaurants that offer higher discount percentages tend to have lower prices.
+We can also create a heatmap to see the correlation between "Discount_Percentage", "Rating", and "Price".
+From the heatmap, we can see that there is a weak negative correlation between "Discount_Percentage" and "Price", and no significant correlation between "Discount_Percentage" and "Rating".
+This suggests that offering higher discounts may not necessarily lead to higher sales or ratings.
+
+4.
+We can create a box plot to see the distribution of ratings for each price range.
+From the box plot, we can see that restaurants in the higher price ranges tend to have higher ratings.
+The top 5 restaurants with the highest ratings are all in the "High" price range.
+
+5.
+We can create a bar plot to see the gross income for each restaurant.
+From the bar plot, we can see that AB's - Absolute Barbecues has the highest gross income, followed by Barbeque Nation and The Big Barbeque.
+We can also create a scatter plot to see the relationship between "Gross Income" and "Rating" for each restaurant.
+From the scatter plot, we can see that there is a weak positive correlation between "Gross Income" and "Rating".
+This suggests that higher gross income may be associated with higher ratings.
+
+
+
+
+Univariate Analysis  Steps
+
+The steps for univariate analysis are:
+
+Identify the variable to be analyzed: Choose a single variable from the dataset to be analyzed.
+
+Understand the variable: Examine the type and nature of the variable, whether it is continuous or categorical, and its distribution.
+
+Descriptive statistics: Calculate the measures of central tendency (mean, median, mode) and measures of variability (range, standard deviation, variance, etc.) to summarize the variable.
+
+Visualize the variable: Create appropriate graphs and charts to visually represent the variable. For continuous variables, use histogram, density plot, box plot, or violin plot. For categorical variables, use bar plot, pie chart, or count plot.
+
+Interpret the results: Analyze the summary statistics and visualizations to draw insights and conclusions about the variable. Look for patterns, trends, outliers, and other interesting characteristics of the variable.
+
+
+
+
+
+
+Bivariate Analysis  Steps
+
+The steps for univariate analysis are:
+
+Identify the variables of interest: The first step is to identify the two variables that you want to analyze and study their relationship.
+
+Plot the data: Plot the data on a scatter plot or a line graph. A scatter plot is useful for analyzing the relationship between two continuous variables, while a line graph is useful for analyzing the relationship between a continuous variable and a categorical variable.
+
+Calculate correlation: Correlation measures the strength and direction of the relationship between two variables. Pearson's correlation coefficient is commonly used for measuring correlation between continuous variables, 
+
+Analyze trends: Analyze the trend in the data. If the data points form a linear pattern on the scatter plot or the line graph, it indicates a positive or negative correlation between the variables. If there is no discernible pattern, it indicates that there is no correlation between the variables.
+
+Conduct hypothesis tests: Use hypothesis tests to determine if the relationship between the variables is statistically significant. Commonly used tests include t-tests, ANOVA, and chi-square tests.
+
+Visualize the relationship: Use appropriate plots such as bar plots, box plots, heatmaps, or violin plots to visualize the relationship between the two variables.
+
+Draw conclusions: Draw conclusions based on the analysis and summarize the findings.
+
+
